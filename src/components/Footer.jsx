@@ -4,8 +4,12 @@ const Footer = () => {
         <div className="footer-box">
         <div class="footer">
             <section className="footer-secao-1">
-                <h1>Digital Store</h1>
+                <div className="footer-secao-1-superior">
+                    <img className="logo-footer" src="../imagens/icon-footer-digitalstore.png" alt="Digital College Logo"/>
+                    <h1 className="h1-footer">Digital Store</h1>
+                </div>
                 <p className="footer-paragrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                <img className="icons-footer" src="../imagens/icones-redes-sociais-footer.png" alt="icones das redes sociais"/>
             </section>
             <section className="footer-secao-2">
                 <nav>
@@ -54,7 +58,7 @@ const Footer = () => {
             lineHeight: '24px',
             opacity: '0.7' 
         }}>
-            @ 2022 Digital College
+            @ 2024 Digital College
         </div>
         </div>
         </>

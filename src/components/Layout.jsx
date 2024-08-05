@@ -1,11 +1,8 @@
-import 'style.css';
-
-
 const Layout= () => {
 
 return (
 <>
-<section className="" >
+<section className="box-secao">
     <div className="layout-container">
       <div className="layout-content">
         <p className="highlight-text">Melhores ofertas personalizadas</p>
