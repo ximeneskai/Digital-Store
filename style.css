@@ -77,17 +77,16 @@
     display: flex;
     list-style-type: none;
     justify-content: center;
-    gap: 5%;
-    margin: 25px;
-    justify-content: left;
+    gap: 1em;
+    margin: 3em;
+    justify-content: flex-start;
     text-align: center;
     color: var(--dark-gray-2);
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0.70px;
     text-align: center;
-    padding: 0;
     display: flex;
     align-items: center;
 }
@@ -120,30 +119,51 @@
     width: 50%;
 }
 
+
 .layout-container {
+    position: absolute;
+    top: 7em;
+    left: 100px; /* Posicionamento a partir da esquerda */
+    width:32em; /* Largura específica */
+    height: 25em; /* Altura específica */
+    z-index: 10; /* Garante que o conteúdo esteja acima do carrossel */
+    background-color: var(--white-color);
+    border-radius: 8px; /* Opcional: para bordas arredondadas */
+    padding: 20px; /* Opcional: adiciona algum preenchimento interno */
     display: flex;
+    flex-direction: column;
+    justify-content: left;
     align-items: center;
-    padding: 20px;
-}
+    overflow: auto;
+  }
   
 .layout-content {
-    flex: 1;
-    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    width: 100%;
 }
   
 .highlight-text {
     color: var(--warning-color);
-    font-weight: bold;
+    font-weight: 700;
+    font-size: 1em;
 }
   
  .title-layout {
-    font-size: 2rem;
-    margin: 10px 0;
+    font-weight: 800;
+    font-size: 3em;
+    /* margin: 10px 0; */
+    /* line-height: 4em; */
 }
   
 .description-text {
     color: var(--dark-gray-2);
     margin: 10px 0 20px 0;
+    font-weight: 400;
+    line-height: 2.1em;
+    font-size: 1.2em;
 }
   
 .offer-button {
@@ -157,8 +177,26 @@
   
 .layout-carousel {
     flex: 1;
+    position: absolute; /* Posiciona o carrossel em relação ao contêiner pai */
+    top: 0;  
+    width: 100%; 
+    height: 100%; 
+    z-index: 1;
 }
 
+.box-carrossel {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80em;
+} 
+  
+.carousel {
+    width: 100%;
+    height: 100%;
+    left: 30em;
+  }
 
 .footer {
     background-color: var(--dark-gray);
