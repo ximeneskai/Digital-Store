@@ -8,6 +8,10 @@
     --success-color: #52CA76;
     --warning-color: #F6AA1C;
     --white-color: #FFFFFF;
+    --hug-color: #E7FF86;
+    --background-color: #F9F8FE;
+
+    ;
 
     /* Grayscale */
     --dark-gray: #1F1F1F;
@@ -28,6 +32,10 @@
     margin: 0;
 }
 
+
+
+/*----------------------------------- HEADER --------------------------------------*/
+
 .header-superior {
     display: flex;
     justify-content: space-around;
@@ -35,7 +43,6 @@
     margin: 20px;
     padding: 10px 20px;
 }
-
 
 .logo {
     width: 15%;
@@ -120,16 +127,20 @@
 }
 
 
+
+
+/*--------------------------------- LAYOUT CARROSSEL ------------------------------*/
+
+
 .layout-container {
     position: absolute;
     top: 7em;
-    left: 100px; /* Posicionamento a partir da esquerda */
-    width:32em; /* Largura específica */
-    height: 25em; /* Altura específica */
-    z-index: 10; /* Garante que o conteúdo esteja acima do carrossel */
-    background-color: var(--white-color);
-    border-radius: 8px; /* Opcional: para bordas arredondadas */
-    padding: 20px; /* Opcional: adiciona algum preenchimento interno */
+    left: 100px; 
+    width:32em; 
+    height: 25em; 
+    z-index: 10; 
+    border-radius: 8px; 
+    padding: 20px; 
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -154,8 +165,6 @@
  .title-layout {
     font-weight: 800;
     font-size: 3em;
-    /* margin: 10px 0; */
-    /* line-height: 4em; */
 }
   
 .description-text {
@@ -177,7 +186,7 @@
   
 .layout-carousel {
     flex: 1;
-    position: absolute; /* Posiciona o carrossel em relação ao contêiner pai */
+    position: absolute; 
     top: 0;  
     width: 100%; 
     height: 100%; 
@@ -189,19 +198,189 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80em;
+    width: 100%;
+    background-color: var(--light-gray-3);
 } 
   
 .carousel {
-    width: 100%;
-    height: 100%;
-    left: 30em;
+    width: 65%;
+    height: 65%;
+    left: 10em;
   }
+
+/*---------------------------------- PRODUCT CARD ----------------------------*/
+
+.box-product-card {
+    background-color: #F9F8FE;
+
+}
+
+.titulo-product-card {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 4em;
+}
+
+.titulo-galeria {
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-left: 1.5em;
+    margin-top: 2em;
+}
+
+.link-galeria {
+    color: var(--primary-color);
+    font-size: 1em;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 10em;
+    margin-top: 3em;
+}
+
+.galeria-produtos {
+    display: grid; /* Usa grid para layout */
+    grid-template-columns: repeat(4, 1fr); /* Cria 4 colunas de tamanho igual */
+    padding-left: 5em;
+    }
+
+
+.discount-tag {
+    position: absolute;
+    background: var(--hug-color);
+    color: var(--dark-gray-2);
+    font-size: 0.7em;
+    font-weight: 700;
+    margin: 1.7em;
+    padding: 5px 15px; 
+    border-radius: 29px;
+    opacity: 1; /* Visível */
+    z-index: 1; /* Coloca a tag acima do card */
+    }
+
+.product-card {
+    width: 20em; /* Ajuste a largura conforme necessário */
+    text-align: left;
+    padding: 1em;
+}
+
+.product-image {
+    width: 18em; 
+    height: 20em; 
+    border-radius: 0.5em;
+    object-fit: cover; /* Faz com que a imagem se ajuste ao container sem distorcer */
+    margin-bottom: 1em;
+    background-color: white;
+}
+
+.product-tag {
+    font-size: 0.75em;
+    color: #888;
+    margin-bottom: 0.5em;
+}
+
+.product-name {
+    font-size: 1.25em;
+    margin-bottom: 0.5em;
+}
+
+.product-price {
+    font-size: 1em;
+}
+
+.price-old {
+    text-decoration: line-through;
+    color: #888;
+    margin-right: 0.5em;
+}
+
+.price-new {
+    color: var(--dark-gray);
+    font-weight: bold;
+}
+
+
+/*---------------------------------- OFERTA ESPECIAL ----------------------------*/
+
+.oferta-especial-box {
+    background-color: var(--white-color);
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    padding: 6%; 
+    position: relative; /* Necessário para posicionamento absoluto das imagens */
+    width: 100%;
+    Height: 35em;
+}
+
+.oferta-especial-imagens {
+    position: relative;
+    width: 45%; 
+    left: 10em;
+}
+
+.imagem-fundo {
+    position: absolute;
+    width: 30em; 
+    height: auto; 
+    left: 5em;
+    top: -2em;
+}
+
+.imagem-frente {
+    position: absolute;
+    width: 35em; 
+    height: auto; 
+    left: 1em;
+}
+
+.imagem-frente {
+    z-index: 2; /* Garante que a imagem da frente fique sobre a imagem de fundo */
+}
+
+.oferta-especial-content {
+    width: 50%; 
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+.highlight-text-oferta {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.titulo-oferta-especial {
+    margin-bottom: 10px; 
+    font-weight: 700;
+    font-size: 3em;
+    color: var(--dark-gray-2);
+}
+
+.texto-oferta-especial {
+    margin-bottom: 20px; 
+    color: var(--dark-gray-2);
+    width: 36em;
+    height: 7em;
+    line-height: 2em;
+    font-weight: 400;
+    font-size: 1em;
+
+}
+
+.offer-button {
+    color: white; 
+    font-size: 0.8em;
+    padding: 0.6em 3.75em; 
+    border-radius: 5px; 
+    cursor: pointer; /* Muda o cursor para uma mão ao passar sobre o botão */
+}
+
+/*----------------------------------------- FOOTER -----------------------------------------*/
 
 .footer {
     background-color: var(--dark-gray);
     box-sizing: border-box;
-    /* width: 100%; */
     color: var(--white-color);
     padding: 3%;
     display: flex;
