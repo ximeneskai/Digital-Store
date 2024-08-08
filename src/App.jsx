@@ -5,17 +5,16 @@ import Header from "./components/Header";
 import Layout from "./components/Layout";
 import ProductCard from "./components/ProductCard";
 import Section from "./components/Section";
+import HomePage from "./pages/HomePage";
+import ProductListingPage from "./pages/ProductListingPage";
+import ProductViewPage from "./pages/ProductViewPage";
 
 const App = () => {
   return (
     <>
-    <Header />
-    <Layout />
-    <Colecoes />
-    <Destaques />
-    <ProductCard />
-    <Section />
-    <Footer />
+    <ProductViewPage />
+    {/* <ProductListingPage /> */}
+    {/* <HomePage /> */}
     </>
   );
 }

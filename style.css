@@ -539,3 +539,47 @@
 
     
 }
+
+
+
+
+/* ------------------------LISTING PAGE------------------------------------- */
+
+.listagem-produtos-box {
+    background-color: var(--background-color);
+    padding: 5em;
+}
+
+.listagem-superior {
+    display: flex;
+    justify-content: space-between;
+}
+
+#botao-ordenar {
+    background-color: var(--background-color);
+    color: var(--dark-gray-2);
+    padding: 1em;
+}
+
+.listagem-layout {
+    display: flex;
+    justify-content: center;
+    padding: 4em;
+}
+
+.galeria-produtos-listagem {
+    display: grid; /* Usa grid para layout */
+    grid-template-columns: repeat(3, 1fr); /* Cria 4 colunas de tamanho igual */
+    padding-left: 5em;
+}
+
+/* ------------------------PRODUCT VIEW PAGE------------------------------------- */
+
+.box-produto {
+    background-color: var(--background-color);
+    padding: 4em;
+}
+
+.sequencia-produto {
+    margin-left: 6.2em;
+}
