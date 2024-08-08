@@ -1,3 +1,6 @@
+
+/* ------------------------------- VARIAVEIS CSS -------------------------- */
+
 @import url(https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap);
 
 :root {
@@ -208,6 +211,74 @@
     left: 10em;
   }
 
+/* ----------------------------COLEÇÕES EM DESTAQUE 1--------------------------- */
+
+.colecoes-box {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: var(--background-color);
+    padding: 4em;
+    gap: 1.5em;
+}
+
+.colecoes-titulo {
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.colecoes-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+
+/* ----------------------------COLEÇÕES EM DESTAQUE 2--------------------------- */
+
+.destaques-box {
+    background-color: var(--background-color);
+    text-align: center;
+    padding: 5em;
+}
+
+.destaques-titulo {
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+.destaques-icones {
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+}
+
+.destaques-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.destaques-icone {
+    background-color: var(--white-color);
+    border-radius: 50%;
+    margin: 0.5em;
+    padding: 1em; /* Ajuste o padding para ajustar o tamanho do círculo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+}
+
+.legenda-icone {
+    font-size: 0.8em;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 1em;
+}
+
+
 /*---------------------------------- PRODUCT CARD ----------------------------*/
 
 .box-product-card {
@@ -315,7 +386,6 @@
 .oferta-especial-imagens {
     position: relative;
     width: 45%; 
-    left: 10em;
 }
 
 .imagem-fundo {
