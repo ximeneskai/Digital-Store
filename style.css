@@ -575,11 +575,120 @@
 
 /* ------------------------PRODUCT VIEW PAGE------------------------------------- */
 
-.box-produto {
+.page-box-produto {
     background-color: var(--background-color);
-    padding: 4em;
+    padding: 3em;
 }
 
 .sequencia-produto {
-    margin-left: 6.2em;
+    margin-left: 5em;
+}
+
+.box-produto {
+    display: flex;
+}
+
+.imagens-produto {
+    padding: 4em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.imagens-mini {
+    display: flex;
+    margin: 0;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.detalhes-produto {
+    margin-top: 2em;
+    padding: 2em;
+    
+}
+
+.titulo-produto-tenis {
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.descricao-produto-tenis {
+    font-weight: 500;
+    font-size: 0.8em;
+}
+
+.preco-produto {
+    margin-top: 1.3em;
+}
+
+.texto-descricao {
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+.titulo-texto-descricao {
+    font-weight: 700;
+}
+
+.tamanhos-produto {
+    margin-top: 2em;
+}
+
+.numero-tamanho {
+    margin: 4px;
+    padding: 0.6em;
+    border-width: 1px;
+    border-radius: 4px;
+    background-color: var(--white-color);
+}
+
+.numero-tamanho-selecionado {
+    margin: 5px;
+    padding: 0.6em;
+    border-width: 1px;
+    border-radius: 4px;
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.cores-produto {
+    margin-top: 2em;
+}
+
+.botao-cor-1 {
+    background-color: #6FEEFF;
+    border-style: none;
+    border-radius: 50%;
+    padding-left: 1em;
+    margin-right: 0.8em;
+    
+}
+
+.botao-cor-2 {
+    background-color: #FF6969;
+    border-style: none;
+    border-radius: 50%;
+    padding-left: 1em;
+    margin-right: 0.8em;
+}
+
+.botao-cor-3 {
+    background-color: #5E5E5E;
+    border-style: none;
+    border-radius: 50%;
+    padding-left: 1em;
+    margin-right: 0.8em;
+}
+
+.botao-cor-4 {
+    background-color: #6D70B7;
+    border-style: none;
+    border-radius: 50%;
+    padding-left: 1em;
+}
+
+#botao-comprar {
+    margin-top: 2em;
+    background-color: #FFB31F;
+    padding: 1em 5em 1em 5em;
 }
