@@ -1,8 +1,21 @@
-# React + Vite
+# Projeto de Avaliação - Desenvolvimento Web Full Stack
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto faz parte da avaliação do curso de **Desenvolvimento Web Full Stack** oferecido pela **Geração Tech**. 
+O objetivo é construir a interface de uma loja digital responsiva, acessível através dos seguintes links:
 
-Currently, two official plugins are available:
+- **Página inicial:** `/`
+- **Listagem de produtos:** `/produtos`
+- **Produto:** `/product/:id`
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Como Executar a Aplicação
+
+Para rodar a aplicação, siga os passos abaixo:
+
+1. Instale as dependências:
+   ```bash
+   npm install
+
+2. Rode o servidor:
+   ```bash
+   npm run dev
+
