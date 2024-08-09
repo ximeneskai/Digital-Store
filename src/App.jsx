@@ -1,22 +1,19 @@
-import Colecoes from "./components/Colecoes";
-import Destaques from "./components/Destaques";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import Layout from "./components/Layout";
-import ProductCard from "./components/ProductCard";
-import Section from "./components/Section";
-import HomePage from "./pages/HomePage";
-import ProductListingPage from "./pages/ProductListingPage";
-import ProductViewPage from "./pages/ProductViewPage";
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import ProductListingPage from './pages/ProductListingPage';
+import ProductViewPage from './pages/ProductViewPage';
 
-const App = () => {
+function App() {
   return (
-    <>
-    <ProductViewPage />
-    {/* <ProductListingPage />  */}
-    {/* <HomePage /> */}
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/produtos" element={<ProductListingPage />} />
+        <Route path="/product/:id" element={<ProductViewPage />} />
+      </Routes>
+    </Router>
   );
 }
- 
+
 export default App;

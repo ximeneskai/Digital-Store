@@ -1,5 +1,7 @@
 import 'primeicons/primeicons.css';
 import logo from "../../imagens/logo.png";
+import { Link } from 'react-router-dom';
+import React from 'react';
 
 const Header = () => {
     return (
@@ -19,8 +21,8 @@ const Header = () => {
             <div>
                 <nav>
                     <ul className="bar">
-                        <li className="bar-1" >Home</li>
-                        <li className="bar-2" >Produtos</li>
+                        <li className="bar-1"><Link to="/">Home</Link></li>
+                        <li className="bar-2"><Link to="/produtos">Produtos</Link></li>
                         <li className="bar-3" >Categorias</li>
                         <li className="bar-4" >Meus Pedidos</li>
                     </ul>
