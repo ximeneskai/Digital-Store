@@ -21,8 +21,8 @@ Para rodar a aplicação, siga os passos abaixo:
 
 
 ## Imagens da API rodando
-
-HOMEPAGE:
+<div align="center">
+#HOMEPAGE:
 
 ![Printscreen da HomePage - 1](https://github.com/ximeneskai/Digital-Store/blob/main/prints/page1-1.jpg?raw=true)
 
@@ -33,7 +33,7 @@ HOMEPAGE:
 ![Printscreen da HomePage - 4](https://github.com/ximeneskai/Digital-Store/blob/main/prints/page1-4.jpg?raw=true)
 
 
-LISTING PRODUCTS:
+#LISTING PRODUCTS:
 
 ![Printscreen da ListingProducts - 1](https://github.com/ximeneskai/Digital-Store/blob/main/prints/page2-1.jpg?raw=true)
 
@@ -42,9 +42,10 @@ LISTING PRODUCTS:
 ![Printscreen da ListingProducts - 3](https://github.com/ximeneskai/Digital-Store/blob/main/prints/page2-3.jpg?raw=true)
 
 
-PRODUCT VIEW:
+#PRODUCT VIEW:
 
 ![Printscreen da ProductView - 1](https://github.com/ximeneskai/Digital-Store/blob/main/prints/page3-1.jpg?raw=true)
 
-![Printscreen da ProductView - 2](https://github.com/ximeneskai/Digital-Store/blob/main/prints/page3-2.jpg?raw=true)
+![Printscreen da ProductView - 2](https://github.com/ximeneskai/Digital-Store/blob/main/prints/page%203-2.jpg?raw=true)
 
+</div>
