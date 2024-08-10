@@ -23,7 +23,7 @@ Para rodar a aplicação, siga os passos abaixo:
 ## Imagens da API rodando
 <br>
 <div align="center"> 
-<h1 style="font-size: 2.5em; font-weight: bold;">HOMEPAGE</h1>
+<h1 style="font-size: 1.5em; font-weight: bold;">HOMEPAGE</h1>
 <br>
 
 ![Printscreen da HomePage - 1](https://github.com/ximeneskai/Digital-Store/blob/main/prints/page1-1.jpg?raw=true)
@@ -35,8 +35,9 @@ Para rodar a aplicação, siga os passos abaixo:
 ![Printscreen da HomePage - 4](https://github.com/ximeneskai/Digital-Store/blob/main/prints/page1-4.jpg?raw=true)
 
 <br>
-<h1 style="font-size: 2.5em; font-weight: bold;">LISTING PRODUCTS</h1>
+<h1 style="font-size: 1.5em; font-weight: bold;">LISTING PRODUCTS</h1>
 <br>
+
 ![Printscreen da ListingProducts - 1](https://github.com/ximeneskai/Digital-Store/blob/main/prints/page2-1.jpg?raw=true)
 
 ![Printscreen da ListingProducts - 2](https://github.com/ximeneskai/Digital-Store/blob/main/prints/page2-2.jpg?raw=true)
@@ -44,8 +45,9 @@ Para rodar a aplicação, siga os passos abaixo:
 ![Printscreen da ListingProducts - 3](https://github.com/ximeneskai/Digital-Store/blob/main/prints/page2-3.jpg?raw=true)
 
 <br>
-<h1 style="font-size: 2.5em; font-weight: bold;">PRODUCT VIEW</h1>
+<h1 style="font-size: 1.5em; font-weight: bold;">PRODUCT VIEW</h1>
 <br>
+
 ![Printscreen da ProductView - 1](https://github.com/ximeneskai/Digital-Store/blob/main/prints/page3-1.jpg?raw=true)
 
 ![Printscreen da ProductView - 2](https://github.com/ximeneskai/Digital-Store/blob/main/prints/page%203-2.jpg?raw=true)
