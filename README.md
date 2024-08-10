@@ -19,3 +19,32 @@ Para rodar a aplicação, siga os passos abaixo:
    ```bash
    npm run dev
 
+
+## Imagens da API rodando
+
+HOMEPAGE:
+
+![Printscreen da HomePage - 1](https://github.com/ximeneskai/Digital-Store/blob/main/prints/page1-1.jpg?raw=true)
+
+![Printscreen da HomePage - 2](https://github.com/ximeneskai/Digital-Store/blob/main/prints/page1-2.jpg?raw=true)
+
+![Printscreen da HomePage - 3](https://github.com/ximeneskai/Digital-Store/blob/main/prints/page1-3.jpg?raw=true)
+
+![Printscreen da HomePage - 4](https://github.com/ximeneskai/Digital-Store/blob/main/prints/page1-4.jpg?raw=true)
+
+
+LISTING PRODUCTS:
+
+![Printscreen da ListingProducts - 1](https://github.com/ximeneskai/Digital-Store/blob/main/prints/page2-1.jpg?raw=true)
+
+![Printscreen da ListingProducts - 2](https://github.com/ximeneskai/Digital-Store/blob/main/prints/page2-2.jpg?raw=true)
+
+![Printscreen da ListingProducts - 3](https://github.com/ximeneskai/Digital-Store/blob/main/prints/page2-3.jpg?raw=true)
+
+
+PRODUCT VIEW:
+
+![Printscreen da ProductView - 1](https://github.com/ximeneskai/Digital-Store/blob/main/prints/page3-1.jpg?raw=true)
+
+![Printscreen da ProductView - 2](https://github.com/ximeneskai/Digital-Store/blob/main/prints/page3-2.jpg?raw=true)
+
